@@ -292,7 +292,7 @@ github.
 ![thandurai](https://github.com/jabezs2005/places-around-me/assets/147473463/a73d470d-2fea-49fc-85cf-6632b371d1d5)
 ## Abropets :
 ![abro](https://github.com/jabezs2005/places-around-me/assets/147473463/59916da6-a0c2-41fd-b213-b65edf84a65a)
-## Vallalr Nagar :
+## Vallalar Nagar :
 ![vallalar](https://github.com/jabezs2005/places-around-me/assets/147473463/e143ad8d-479e-4ed3-8656-6ed93ea91e48)
 
 
