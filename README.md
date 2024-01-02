@@ -281,14 +281,18 @@ github.
 ```
 
 ### Output:
-## Jeya Chris Mahal :
+## Imagemap :
 ![map](https://github.com/jabezs2005/places-around-me/assets/147473463/f2e385f5-0297-44c0-971e-65937ccff049)
 
-#
+## Jeya Chris Mahal :
 ![mahal1](https://github.com/jabezs2005/places-around-me/assets/147473463/7417987c-e77f-496d-add2-334db783dece)
+## Hindu College :
 ![hindu](https://github.com/jabezs2005/places-around-me/assets/147473463/afc6d883-d9c3-4bbe-8455-053bf381bc2e)
+## Thandurai Elementary School :
 ![thandurai](https://github.com/jabezs2005/places-around-me/assets/147473463/a73d470d-2fea-49fc-85cf-6632b371d1d5)
+## Abropets :
 ![abro](https://github.com/jabezs2005/places-around-me/assets/147473463/59916da6-a0c2-41fd-b213-b65edf84a65a)
+## Vallalr Nagar :
 ![vallalar](https://github.com/jabezs2005/places-around-me/assets/147473463/e143ad8d-479e-4ed3-8656-6ed93ea91e48)
 
 
