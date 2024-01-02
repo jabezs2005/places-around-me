@@ -1,27 +1,31 @@
 # Places Around Me
 ## AIM:
 To develop a website to display details about the places around my house.
-
 ## Design Steps:
-
 ### Step 1:
 Fork the repository to your github and clone it into a
 folder in github.
+
 ### Step 2:
 Then make sure that django is activated and then start a
 new django project.
+
 ### Step 3:
 Now create a folder called static and within that folder
 create a folder called html.
+
 ### Step 4:
 Now create a file called map.html in that folder.
+
 ### Step 5:
 Now open google maps and take a screenshot of your
 hometown.
+
 ### Step 6:
 Now open "imagemap.org" and upload your image there
 and generate image maps of that using the rectangular
-or circle tool
+or circle tool.
+
 ### Step 7:
 Now inside the html folder create the necessary html files
 that you've included in the href of the image maps.
@@ -29,7 +33,33 @@ that you've included in the href of the image maps.
 ### Step 8:
 Now push the folder and commit the changes in the
 github.
-## Code:
+
+### Code:
+## HTML:
+map.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        imagemaps demo
+    </title>
+</head>
+<body>
+    <img src="Screenshot 2023-11-20 135608.png" usemap="#image_map">
+<map name="image_map">
+  <area alt="JEYA CHRIS MAHAL" title="JEYA CHRIS MAHAL" href="mahal.html" coords="319,77,607,323" shape="rect">
+  <area alt="Abropets" title="Abropets" href="Abropets.html" coords="1041,179,99" shape="circle">
+  <area alt="HINDU COLLEGE" title="HINDU COLLEGE" href="hindu.html" coords="782,5,143" shape="circle">
+  <area alt="VALLAR NAGAR" title="VALLAR NAGAR" href="vallalar.html" coords="32,5,130" shape="circle">
+  <area alt="THANDURAI SCHOOL" title="THANDURAI SCHOOL" href="school.html" coords="253,392,116" shape="circle">
+
+</map>
+    
+</body>
+</html>
+```
+Abropets.html
 ```
 <!DOCTYPE html>
 <html >
@@ -88,6 +118,7 @@ github.
 </body>
 </html>
 ```
+hindu.html
 ```
 <!DOCTYPE html>
 <html >
@@ -145,6 +176,7 @@ github.
 </body>
 </html>
 ```
+mahal.html
 ```
 <!DOCTYPE html>
 <html >
@@ -200,28 +232,7 @@ github.
 </body>
 </html>
 ```
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        imagemaps demo
-    </title>
-</head>
-<body>
-    <img src="Screenshot 2023-11-20 135608.png" usemap="#image_map">
-<map name="image_map">
-  <area alt="JEYA CHRIS MAHAL" title="JEYA CHRIS MAHAL" href="mahal.html" coords="319,77,607,323" shape="rect">
-  <area alt="Abropets" title="Abropets" href="Abropets.html" coords="1041,179,99" shape="circle">
-  <area alt="HINDU COLLEGE" title="HINDU COLLEGE" href="hindu.html" coords="782,5,143" shape="circle">
-  <area alt="VALLAR NAGAR" title="VALLAR NAGAR" href="vallalar.html" coords="32,5,130" shape="circle">
-  <area alt="THANDURAI SCHOOL" title="THANDURAI SCHOOL" href="school.html" coords="253,392,116" shape="circle">
-
-</map>
-    
-</body>
-</html>
-```
+school.html
 ```
 <!DOCTYPE html>
 <html >
@@ -279,11 +290,66 @@ github.
 </body>
 </html>
 ```
+nagar.html
+```
+<!DOCTYPE html>
+<html >
+<head>
+    <title>VALLALAR NAGAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+        }
+        .header{
+            height: 140px;
+            width: 100%;
+            border: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: blueviolet;
+        }
+        .header p{
+            font-family: 'poppins';
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .body img{
+            margin-top: 20px;
+            margin-right: 20px;
+            width: 700px;
+            border: 5px solid black;
+        }
+        .body p{
+            font-size: 25px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>VALLALAR NAGAR</p>
+    </div>
+    <div class="body">
+        <img src="images/nagar.jpg">
+        <p>As of my last knowledge update in January 2022, I don't have specific information about a place named "Vallalar Nagar" that is widely recognized or known globally. It's possible that it might be a local or regional name, and information about it may not be readily available in widely accessible sources.If "Vallalar Nagar" is a specific location, it could be helpful to provide additional context or details such as the country, state, or region it is located in. This will help me provide more accurate and relevant information based on the available data.</p>
+    </div>
+    
+</body>
+</html>
+```
 
 ### Output:
 ## Imagemap :
 ![map](https://github.com/jabezs2005/places-around-me/assets/147473463/f2e385f5-0297-44c0-971e-65937ccff049)
-
 ## Jeya Chris Mahal :
 ![mahal1](https://github.com/jabezs2005/places-around-me/assets/147473463/7417987c-e77f-496d-add2-334db783dece)
 ## Hindu College :
@@ -296,5 +362,5 @@ github.
 ![vallalar](https://github.com/jabezs2005/places-around-me/assets/147473463/e143ad8d-479e-4ed3-8656-6ed93ea91e48)
 
 
-## Result:
+### Result:
 Image maps have been sucessfully developed
