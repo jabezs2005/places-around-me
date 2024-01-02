@@ -280,8 +280,11 @@ github.
 </html>
 ```
 
-## Output:
+### Output:
+## Jeya Chris Mahal :
 ![map](https://github.com/jabezs2005/places-around-me/assets/147473463/f2e385f5-0297-44c0-971e-65937ccff049)
+
+#
 ![mahal1](https://github.com/jabezs2005/places-around-me/assets/147473463/7417987c-e77f-496d-add2-334db783dece)
 ![hindu](https://github.com/jabezs2005/places-around-me/assets/147473463/afc6d883-d9c3-4bbe-8455-053bf381bc2e)
 ![thandurai](https://github.com/jabezs2005/places-around-me/assets/147473463/a73d470d-2fea-49fc-85cf-6632b371d1d5)
